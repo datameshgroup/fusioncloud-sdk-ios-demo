@@ -178,20 +178,20 @@ class ViewController: UIViewController, FusionClientDelegate {
     
     public func initConfig() {
         fusionCloudConfig.allowSelfSigned = true
-                ///TO BE PROVIDED BY DATAMESH
-                fusionCloudConfig.saleID = testEnvironment ? "VA POS"  : "<<SALE ID - PROD>>"
-                fusionCloudConfig.poiID = testEnvironment ? "DMGVA001" : "<<POI ID - PROD>>"
+        ///TO BE PROVIDED BY DATAMESH
+        fusionCloudConfig.saleID = testEnvironment ? "<<SALE ID - DEV>>"  : "<<SALE ID - PROD>>"
+        fusionCloudConfig.poiID = testEnvironment ? "<<POI ID - DEV>>" : "<<POI ID - PROD>>"
+                
+        fusionCloudConfig.providerIdentification = testEnvironment ? "<<DEV>>" : "<<PROD>>"
+        fusionCloudConfig.applicationName = testEnvironment ? "<<DEV>>" : "<<PROD>>"
+        fusionCloudConfig.softwareVersion = testEnvironment ? "<<DEV>>" : "<<PROD>>"
+        fusionCloudConfig.certificationCode = testEnvironment ? "<<DEV>>" : "<<PROD>>"
                         
-                fusionCloudConfig.providerIdentification = testEnvironment ? "Company A" : "<<PROD>>"
-                fusionCloudConfig.applicationName = testEnvironment ? "POS Retail" : "<<PROD>>"
-                fusionCloudConfig.softwareVersion = testEnvironment ? "01.00.00" : "<<PROD>>"
-                fusionCloudConfig.certificationCode = testEnvironment ? "98cf9dfc-0db7-4a92-8b8cb66d4d2d7169" : "<<PROD>>"
-                        
-                 /*per pinpad*/
-                 fusionCloudConfig.kekValue = testEnvironment ? "44DACB2A22A4A752ADC1BBFFE6CEFB589451E0FFD83F8B21" : "<<PROD>>"
-                        
-                 self.fusionClient = FusionClient(fusionCloudConfig: fusionCloudConfig)
-                 fusionClient.fusionClientDelegate = self
+        /*per pinpad*/
+        fusionCloudConfig.kekValue = testEnvironment ? "<<DEV>>" : "<<PROD>>"
+               
+        self.fusionClient = FusionClient(fusionCloudConfig: fusionCloudConfig)
+        fusionClient.fusionClientDelegate = self
 
     }
     
