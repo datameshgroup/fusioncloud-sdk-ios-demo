@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		AB49909528A5FF4A00BA4F59 /* FusionCloud.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB49909428A5FF4A00BA4F59 /* FusionCloud.framework */; };
-		AB49909628A5FF4A00BA4F59 /* FusionCloud.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = AB49909428A5FF4A00BA4F59 /* FusionCloud.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		26AC80882A8E1043003869D0 /* FusionCloud.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26AC80862A8E06C3003869D0 /* FusionCloud.xcframework */; };
+		26AC80892A8E1043003869D0 /* FusionCloud.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 26AC80862A8E06C3003869D0 /* FusionCloud.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		AB8B828528A21E8300982344 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6A6989227CA91F900324851 /* ViewController.swift */; };
 		D6A6988F27CA91F900324851 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6A6988E27CA91F900324851 /* AppDelegate.swift */; };
 		D6A6989127CA91F900324851 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6A6989027CA91F900324851 /* SceneDelegate.swift */; };
@@ -46,7 +46,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				AB49909628A5FF4A00BA4F59 /* FusionCloud.framework in Embed Frameworks */,
+				26AC80892A8E1043003869D0 /* FusionCloud.xcframework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -55,9 +55,9 @@
 
 /* Begin PBXFileReference section */
 		12CB0016DC86F4F1E56CAAB9 /* Pods-TestAppDM.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestAppDM.release.xcconfig"; path = "Target Support Files/Pods-TestAppDM/Pods-TestAppDM.release.xcconfig"; sourceTree = "<group>"; };
+		26AC80862A8E06C3003869D0 /* FusionCloud.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = FusionCloud.xcframework; sourceTree = "<group>"; };
 		5D1C67CBFB0D9D0EFB392C50 /* Pods_TestAppDM.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestAppDM.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		98E048014139F7B26FCFB075 /* Pods-TestAppDM.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestAppDM.debug.xcconfig"; path = "Target Support Files/Pods-TestAppDM/Pods-TestAppDM.debug.xcconfig"; sourceTree = "<group>"; };
-		AB49909428A5FF4A00BA4F59 /* FusionCloud.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FusionCloud.framework; sourceTree = "<group>"; };
 		D6712AB028430FB1001D123C /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		D6A6988B27CA91F900324851 /* TestAppDM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestAppDM.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6A6988E27CA91F900324851 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -80,8 +80,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AB49909528A5FF4A00BA4F59 /* FusionCloud.framework in Frameworks */,
 				E9D034CC78EC7F27AF51A20A /* Pods_TestAppDM.framework in Frameworks */,
+				26AC80882A8E1043003869D0 /* FusionCloud.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -105,7 +105,7 @@
 		9C1D0D3BA29DBEEEADF97992 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				AB49909428A5FF4A00BA4F59 /* FusionCloud.framework */,
+				26AC80862A8E06C3003869D0 /* FusionCloud.xcframework */,
 				5D1C67CBFB0D9D0EFB392C50 /* Pods_TestAppDM.framework */,
 			);
 			name = Frameworks;
