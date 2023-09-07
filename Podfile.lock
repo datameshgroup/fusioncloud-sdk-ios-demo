@@ -1,22 +1,25 @@
 PODS:
-  - Alamofire (5.3.0)
-  - IDZSwiftCommonCrypto (0.13.0)
+  - Alamofire (5.8.0)
+  - FusionCloudIOS (0.1.2):
+    - IDZSwiftCommonCrypto (~> 0.13)
+    - ObjectMapper (~> 4.2.0)
+    - Starscream (= 4.0.4)
+  - IDZSwiftCommonCrypto (0.16.1)
   - ObjectMapper (4.2.0)
   - ReachabilitySwift (5.0.0)
   - Starscream (4.0.4)
   - SVProgressHUD (2.2.5)
 
 DEPENDENCIES:
-  - Alamofire (~> 5.3.0)
-  - IDZSwiftCommonCrypto (~> 0.13)
-  - ObjectMapper (~> 4)
+  - Alamofire (= 5.8.0)
+  - FusionCloudIOS (= 0.1.2)
   - ReachabilitySwift
-  - Starscream (~> 4.0.0)
   - SVProgressHUD
 
 SPEC REPOS:
   trunk:
     - Alamofire
+    - FusionCloudIOS
     - IDZSwiftCommonCrypto
     - ObjectMapper
     - ReachabilitySwift
@@ -24,13 +27,14 @@ SPEC REPOS:
     - SVProgressHUD
 
 SPEC CHECKSUMS:
-  Alamofire: 2c792affbdc2f18016e08fdbcacd60aebe1ba593
-  IDZSwiftCommonCrypto: 00dd37cdfbd149312a7e5a582cf9909f8b129f44
+  Alamofire: 0e92e751b3e9e66d7982db43919d01f313b8eb91
+  FusionCloudIOS: c1d15e9e59dd022273089e90c004186017b0425f
+  IDZSwiftCommonCrypto: aefd3487b88dc3d7a1de2553188c720ac3194940
   ObjectMapper: 1eb41f610210777375fa806bf161dc39fb832b81
   ReachabilitySwift: 985039c6f7b23a1da463388634119492ff86c825
   Starscream: 5178aed56b316f13fa3bc55694e583d35dd414d9
   SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
 
-PODFILE CHECKSUM: 7fd91f47f70d3b20e222ed48ab005eae076a0184
+PODFILE CHECKSUM: 01f17d802adc2cb4519c33ed2570e8ca4f9aea74
 
-COCOAPODS: 1.12.0
+COCOAPODS: 1.12.1

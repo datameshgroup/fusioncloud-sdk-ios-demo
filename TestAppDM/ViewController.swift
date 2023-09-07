@@ -4,7 +4,7 @@
 
 import UIKit
 import SVProgressHUD
-import FusionCloud
+import FusionCloudIOS
 import WebKit
 
 class ViewController: UIViewController, FusionClientDelegate {
@@ -192,7 +192,6 @@ class ViewController: UIViewController, FusionClientDelegate {
                 
          self.fusionClient = FusionClient(fusionCloudConfig: fusionCloudConfig)
          fusionClient.fusionClientDelegate = self
-
     }
     
     func showReceipt(doShow: Bool){
@@ -204,7 +203,7 @@ class ViewController: UIViewController, FusionClientDelegate {
    
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        overrideUserInterfaceStyle = .light
         txtLogs.isEditable = false
         
         initConfig()
@@ -454,7 +453,7 @@ class ViewController: UIViewController, FusionClientDelegate {
         
         if(success) {
             //Internal validation for masked pan + payment brand validation
-            let isValidCard = FusionCloud.isCardValid(cardNumber: maskedPAN, cardBrand: paymentBrand ?? "unknown")
+            let isValidCard = FusionCloudIOS.isCardValid(cardNumber: maskedPAN, cardBrand: paymentBrand ?? "unknown")
             if !isValidCard.isValid{
                 print(Date().ISO8601Format() + "\n\n WARNING: \(isValidCard.errorMessage)")
             }
@@ -555,7 +554,7 @@ class ViewController: UIViewController, FusionClientDelegate {
         
         if(success && errorCondition==nil) {
             //Internal validation for masked pan + payment brand validation
-            let isValidCard = FusionCloud.isCardValid(cardNumber: maskedPAN, cardBrand: paymentBrand ?? "Unknown" )
+            let isValidCard = FusionCloudIOS.isCardValid(cardNumber: maskedPAN, cardBrand: paymentBrand ?? "Unknown" )
             if !isValidCard.isValid{
                 print("WARNING: \(isValidCard.errorMessage)")
             }

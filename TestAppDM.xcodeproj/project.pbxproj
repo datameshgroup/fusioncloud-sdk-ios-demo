@@ -7,8 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		26AC80882A8E1043003869D0 /* FusionCloud.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26AC80862A8E06C3003869D0 /* FusionCloud.xcframework */; };
-		26AC80892A8E1043003869D0 /* FusionCloud.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 26AC80862A8E06C3003869D0 /* FusionCloud.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		218594062AB2750874B94E32 /* Pods_TestAppDM.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30DF83611F0BD2166912E50C /* Pods_TestAppDM.framework */; };
 		AB8B828528A21E8300982344 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6A6989227CA91F900324851 /* ViewController.swift */; };
 		D6A6988F27CA91F900324851 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6A6988E27CA91F900324851 /* AppDelegate.swift */; };
 		D6A6989127CA91F900324851 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6A6989027CA91F900324851 /* SceneDelegate.swift */; };
@@ -19,7 +18,6 @@
 		D6A698A927CA91FA00324851 /* TestAppDMTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6A698A827CA91FA00324851 /* TestAppDMTests.swift */; };
 		D6A698B327CA91FA00324851 /* TestAppDMUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6A698B227CA91FA00324851 /* TestAppDMUITests.swift */; };
 		D6A698B527CA91FA00324851 /* TestAppDMUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6A698B427CA91FA00324851 /* TestAppDMUITestsLaunchTests.swift */; };
-		E9D034CC78EC7F27AF51A20A /* Pods_TestAppDM.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D1C67CBFB0D9D0EFB392C50 /* Pods_TestAppDM.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,13 +38,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		D615D673283A11C4004A1772 /* Embed Frameworks */ = {
+		26BFD9F42AA9978E000F7EE0 /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				26AC80892A8E1043003869D0 /* FusionCloud.xcframework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -54,10 +51,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		12CB0016DC86F4F1E56CAAB9 /* Pods-TestAppDM.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestAppDM.release.xcconfig"; path = "Target Support Files/Pods-TestAppDM/Pods-TestAppDM.release.xcconfig"; sourceTree = "<group>"; };
-		26AC80862A8E06C3003869D0 /* FusionCloud.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = FusionCloud.xcframework; sourceTree = "<group>"; };
-		5D1C67CBFB0D9D0EFB392C50 /* Pods_TestAppDM.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestAppDM.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		98E048014139F7B26FCFB075 /* Pods-TestAppDM.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestAppDM.debug.xcconfig"; path = "Target Support Files/Pods-TestAppDM/Pods-TestAppDM.debug.xcconfig"; sourceTree = "<group>"; };
+		217A6BF50A9C48D19FE0DE1F /* Pods-TestAppDM.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestAppDM.debug.xcconfig"; path = "Target Support Files/Pods-TestAppDM/Pods-TestAppDM.debug.xcconfig"; sourceTree = "<group>"; };
+		30DF83611F0BD2166912E50C /* Pods_TestAppDM.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestAppDM.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C76CAEB35231B3D12E9097E /* Pods-TestAppDM.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestAppDM.release.xcconfig"; path = "Target Support Files/Pods-TestAppDM/Pods-TestAppDM.release.xcconfig"; sourceTree = "<group>"; };
 		D6712AB028430FB1001D123C /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		D6A6988B27CA91F900324851 /* TestAppDM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestAppDM.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6A6988E27CA91F900324851 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -80,8 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E9D034CC78EC7F27AF51A20A /* Pods_TestAppDM.framework in Frameworks */,
-				26AC80882A8E1043003869D0 /* FusionCloud.xcframework in Frameworks */,
+				218594062AB2750874B94E32 /* Pods_TestAppDM.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -105,8 +100,7 @@
 		9C1D0D3BA29DBEEEADF97992 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				26AC80862A8E06C3003869D0 /* FusionCloud.xcframework */,
-				5D1C67CBFB0D9D0EFB392C50 /* Pods_TestAppDM.framework */,
+				30DF83611F0BD2166912E50C /* Pods_TestAppDM.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -169,8 +163,8 @@
 		F55F502395023371028C1BD0 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				98E048014139F7B26FCFB075 /* Pods-TestAppDM.debug.xcconfig */,
-				12CB0016DC86F4F1E56CAAB9 /* Pods-TestAppDM.release.xcconfig */,
+				217A6BF50A9C48D19FE0DE1F /* Pods-TestAppDM.debug.xcconfig */,
+				6C76CAEB35231B3D12E9097E /* Pods-TestAppDM.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -182,12 +176,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D6A698B827CA91FA00324851 /* Build configuration list for PBXNativeTarget "TestAppDM" */;
 			buildPhases = (
-				B7ABA06EC7ED48D65C8BE8AB /* [CP] Check Pods Manifest.lock */,
+				14EF0D9547237906E7DB1C17 /* [CP] Check Pods Manifest.lock */,
 				D6A6988727CA91F900324851 /* Sources */,
 				D6A6988827CA91F900324851 /* Frameworks */,
 				D6A6988927CA91F900324851 /* Resources */,
-				D615D673283A11C4004A1772 /* Embed Frameworks */,
-				5548C573D50EAF60BA18BBFD /* [CP] Embed Pods Frameworks */,
+				A8D188B8F73518B7D8A8F258 /* [CP] Embed Pods Frameworks */,
+				26BFD9F42AA9978E000F7EE0 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -306,24 +300,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		5548C573D50EAF60BA18BBFD /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-TestAppDM/Pods-TestAppDM-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-TestAppDM/Pods-TestAppDM-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TestAppDM/Pods-TestAppDM-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		B7ABA06EC7ED48D65C8BE8AB /* [CP] Check Pods Manifest.lock */ = {
+		14EF0D9547237906E7DB1C17 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -343,6 +320,23 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A8D188B8F73518B7D8A8F258 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TestAppDM/Pods-TestAppDM-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TestAppDM/Pods-TestAppDM-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TestAppDM/Pods-TestAppDM-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -531,7 +525,7 @@
 		};
 		D6A698B927CA91FA00324851 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 98E048014139F7B26FCFB075 /* Pods-TestAppDM.debug.xcconfig */;
+			baseConfigurationReference = 217A6BF50A9C48D19FE0DE1F /* Pods-TestAppDM.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -557,6 +551,10 @@
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SDKROOT)/usr/lib/swift",
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = dmtest.TestAppDMUpdate2;
@@ -570,7 +568,7 @@
 		};
 		D6A698BA27CA91FA00324851 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 12CB0016DC86F4F1E56CAAB9 /* Pods-TestAppDM.release.xcconfig */;
+			baseConfigurationReference = 6C76CAEB35231B3D12E9097E /* Pods-TestAppDM.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -596,6 +594,10 @@
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SDKROOT)/usr/lib/swift",
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = dmtest.TestAppDMUpdate2;

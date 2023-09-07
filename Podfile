@@ -1,5 +1,5 @@
 # Uncomment the next line to define a global platform for your project
-platform :ios, '12.0'
+platform :ios, '13.0'
 
 target 'TestAppDM' do
   # Comment the next line if you don't want to use dynamic frameworks
@@ -7,11 +7,9 @@ target 'TestAppDM' do
 
   # Pods for TestAppDM
   pod 'ReachabilitySwift'
-  pod 'Alamofire','~> 5.3.0'
+  pod 'Alamofire','5.8.0'
   pod 'SVProgressHUD'
-  pod 'Starscream', '~> 4.0.0'
+  # pod 'Starscream', '4.0.4'
+  pod 'FusionCloudIOS', '0.1.2'
 
-  # Pods for FusionCloud
-  pod 'ObjectMapper', '~> 4'
-  pod 'IDZSwiftCommonCrypto', '~> 0.13'
 end
